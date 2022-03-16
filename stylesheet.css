@@ -12,35 +12,35 @@
     margin: 0 auto;
 }
 
-.phone{
+.phone {
     background-image: url("assets/icon/phone.png");
     background-size: cover;
     height: 12px;
     width: 12px;
 }
 
-.team{
+.team {
     background-image: url("assets/icon/team.png");
     background-size: cover;
     height: 100px;
-    width: 100px; 
+    width: 100px;
 }
 
-.course{
+.course {
     background-image: url("assets/icon/course.png");
     background-size: cover;
     height: 64px;
     width: 64px;
 }
 
-.workshop{
+.workshop {
     background-image: url("assets/icon/workshop.png");
     background-size: cover;
     height: 64px;
     width: 64px;
 }
 
-.seminar{
+.seminar {
     background-image: url("assets/icon/seminar.png");
     background-size: cover;
     height: 64px;
@@ -80,7 +80,7 @@ header {
 
 .header-right {
     float: right;
-    transition:all 1s;
+    transition: all 1s;
 }
 
 .header-right a:hover {
@@ -105,9 +105,9 @@ li {
     float: left;
 }
 
-.poster{
-    width:1200px;
-    margin:auto;
+.poster {
+    width: 1200px;
+    margin: auto;
     margin-top: 70px;
     margin-bottom: 20px;
     animation-name: anim-opac;
@@ -121,7 +121,7 @@ li {
     position: relative;
 }
 
-.row img{
+.row img {
     width: 600px;
     display: block;
 }
@@ -136,7 +136,7 @@ li {
     position: relative;
 }
 
-.img-1{
+.img-1 {
     animation-name: anim-right;
     animation-duration: 3s;
     animation-delay: 5s;
@@ -153,18 +153,19 @@ li {
     position: relative;
 }
 
-.img-2{
+.img-2 {
     animation-name: anim-left;
     animation-duration: 3s;
     animation-delay: 5s;
     position: relative;
 }
 
-.deskripsi-1 p,.deskripsi-2 p{
+.deskripsi-1 p,
+.deskripsi-2 p {
     font-style: italic;
 }
 
-.diff-wrapper{
+.diff-wrapper {
     text-align: center;
     margin-bottom: 50px;
     padding-top: 65px;
@@ -173,11 +174,11 @@ li {
     animation-delay: 5s;
 }
 
-.diff-list{
+.diff-list {
     display: flex;
 }
 
-.diff-content{
+.diff-content {
     margin-top: 20px;
     background-color: white;
     border-radius: 10px 10px 10px 10px;
@@ -187,11 +188,12 @@ li {
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.diff-icon,.diff-title{
+.diff-icon,
+.diff-title {
     margin-bottom: 10px;
 }
 
-.schedule-wrapper{
+.schedule-wrapper {
     margin-bottom: 50px;
     padding-top: 65px;
     animation-name: anim-opac;
@@ -199,7 +201,7 @@ li {
     animation-delay: 5s;
 }
 
-.schedule-wrapper .container{
+.schedule-wrapper .container {
     margin-top: 20px;
     background-color: white;
     border-radius: 10px 10px 10px 10px;
@@ -210,32 +212,34 @@ li {
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.schedule-title{
+.schedule-title {
     text-align: center;
     margin-bottom: 10px;
 }
 
 .table {
-	font-family : sans-serif;
-	color : #444;
-	border-collapse: collapse;
-	width: 50%;
-	border: 1 px solid #f2f5f7;
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1 px solid #f2f5f7;
 }
 
 .table tr th {
-	background: #000000;
-	color: #fff;
-	font-weight: normal;
+    background: #000000;
+    color: #fff;
+    font-weight: normal;
 }
 
-.table, th, td {
-	padding: 10px 40px;
-	text-align: left;
+.table,
+th,
+td {
+    padding: 10px 40px;
+    text-align: left;
 }
 
 .table tr:hover {
-	/* background-color: #f5f5f5; */
+    /* background-color: #f5f5f5; */
     background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -243,7 +247,7 @@ li {
 	background-color: #f2f2f2;
 } */
 
-.about-wrapper{
+.about-wrapper {
     margin-bottom: 50px;
     padding-top: 65px;
     animation-name: anim-opac;
@@ -251,7 +255,7 @@ li {
     animation-delay: 5s;
 }
 
-.about{
+.about {
     margin-top: 20px;
     background-color: white;
     border-radius: 10px 10px 10px 10px;
@@ -262,66 +266,278 @@ li {
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.about-icon,.about-title{
+.about-icon,
+.about-title {
     margin-bottom: 10px;
 }
 
-.footer-wrapper{
+.footer-wrapper {
     animation-name: anim-opac;
     animation-duration: 3s;
     animation-delay: 5s;
 }
 
-.footer-wrapper .container{
+.footer-wrapper .container {
     background-image: url("assets/image/footer.png");
     width: 1200px;
     height: 200px;
     margin-bottom: 50px;
 }
 
-.footer-title{
+.footer-title {
     font-size: 20px;
 }
+
 .footer p {
     font-size: 10px;
 }
 
 /* Bagian Animasi */
 @keyframes anim-left {
-    0%{
+    0% {
         left: -1000px;
     }
-    100%{
+
+    100% {
         left: 0%;
     }
 }
 
 @keyframes anim-right {
-    0%{
+    0% {
         right: -1000px;
     }
-    100%{
+
+    100% {
         right: 0%;
     }
 }
 
 @keyframes anim-top {
-    0%{
+    0% {
         top: -1000px;
     }
-    50%{
-        top:50px;
+
+    50% {
+        top: 50px;
     }
-    100%{
-        top:0%;
+
+    100% {
+        top: 0%;
     }
 }
 
 @keyframes anim-opac {
-    0%{
+    0% {
         opacity: 0.0;
     }
-    100%{
+
+    100% {
         opacity: 1;
     }
+}
+
+/* responsive.css part below*/
+@media only screen and (max-width:670px) {
+    * {
+        zoom: 1;
+        max-width: 670px !important;
+    }
+
+    .container {
+        width: 650px;
+        margin: 0 auto;
+    }
+
+    header {
+        width: 650px;
+        height: 65px;
+        position: fixed;
+        z-index: 10;
+    }
+
+    .poster {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    .row img {
+        width: 300px;
+    }
+
+    .deskripsi-1,
+    .deskripsi-2 {
+        padding: 0 10px;
+    }
+
+    .diff-content {
+        width: 200px;
+    }
+
+    .schedule-wrapper .container {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .about {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .footer-wrapper .container {
+        width: 550px;
+        margin: 0 auto;
+    }
+
+    table {
+        border: 0;
+    }
+
+    table caption {
+        font-size: 1.3em;
+    }
+
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    table tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+    }
+
+    table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+
+    table td::before {
+        /*
+        * aria-label has no advantage, it won't be read inside a table
+        content: attr(aria-label);
+        */
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+
+    }
+
+    table td:last-child {
+        border-bottom: 0;
+    }
+
+@media only screen and (max-width:1000px) {
+    * {
+        zoom: 1;
+        max-width: 990px !important;
+    }
+
+    .container {
+        width: 950px;
+        margin: 0 auto;
+    }
+
+    header {
+        width: 950px;
+        height: 65px;
+        position: fixed;
+        z-index: 10;
+    }
+
+    .poster {
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    .row img {
+        width: 450px;
+    }
+
+    .deskripsi-1,
+    .deskripsi-2 {
+        padding: 0 10px;
+    }
+
+    .diff-content {
+        width: 300px;
+    }
+
+    .schedule-wrapper .container {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .about {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .footer-wrapper .container {
+        width: 850px;
+        margin: 0 auto;
+    }
+
+    table {
+        border: 0;
+    }
+
+    table caption {
+        font-size: 1.3em;
+    }
+
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    table tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+    }
+
+    table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+
+    table td::before {
+        /*
+            * aria-label has no advantage, it won't be read inside a table
+            content: attr(aria-label);
+            */
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+
+    }
+
+    table td:last-child {
+        border-bottom: 0;
+    }
+}
 }
