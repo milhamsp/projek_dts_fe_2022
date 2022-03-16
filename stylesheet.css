@@ -1,0 +1,321 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    scroll-behavior: smooth;
+    font-family: "Lucida Grande";
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.phone{
+    background-image: url("assets/icon/phone.png");
+    background-size: cover;
+    height: 12px;
+    width: 12px;
+}
+
+.team{
+    background-image: url("assets/icon/team.png");
+    background-size: cover;
+    height: 100px;
+    width: 100px; 
+}
+
+.course{
+    background-image: url("assets/icon/course.png");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+
+.workshop{
+    background-image: url("assets/icon/workshop.png");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+
+.seminar{
+    background-image: url("assets/icon/seminar.png");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+
+header {
+    left: 50%;
+    transform: translate(-50%);
+    height: 65px;
+    width: 1200px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    padding: 0px 10px;
+    box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    z-index: 10;
+    animation-name: anim-top;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+.logo {
+    width: 30px;
+    margin-top: 20px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    transition:all 1s;
+}
+
+.header-right a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.header-right a {
+    line-height: 65px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 10px;
+    color: gray;
+    display: block;
+}
+
+ul {
+    float: left;
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+
+.poster{
+    width:1200px;
+    margin:auto;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    animation-name: anim-opac;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+.row {
+    margin-bottom: 20px;
+    display: flex;
+    position: relative;
+}
+
+.row img{
+    width: 600px;
+    display: block;
+}
+
+.deskripsi-1 {
+    width: 600px;
+    padding: 10% 10px;
+    text-align: justify;
+    animation-name: anim-left;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    position: relative;
+}
+
+.img-1{
+    animation-name: anim-right;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    position: relative;
+}
+
+.deskripsi-2 {
+    width: 600px;
+    padding: 10% 10px;
+    text-align: justify;
+    animation-name: anim-right;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    position: relative;
+}
+
+.img-2{
+    animation-name: anim-left;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    position: relative;
+}
+
+.deskripsi p{
+    font-style: italic;
+}
+
+.diff-wrapper{
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 65px;
+    animation-name: anim-opac;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+.diff-list{
+    display: flex;
+}
+
+.diff-content{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px 10px;
+    box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.diff-icon,.diff-title{
+    margin-bottom: 10px;
+}
+
+.schedule-wrapper{
+    margin-bottom: 50px;
+    padding-top: 65px;
+    animation-name: anim-opac;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+.schedule-wrapper .container{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px 10px;
+    box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.2);
+    width: 1200px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.schedule-title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.table {
+	font-family : sans-serif;
+	color : #444;
+	border-collapse: collapse;
+	width: 50%;
+	border: 1 px solid #f2f5f7;
+}
+
+.table tr th {
+	background: #000000;
+	color: #fff;
+	font-weight: normal;
+}
+
+.table, th, td {
+	padding: 10px 40px;
+	text-align: left;
+}
+
+.table tr:hover {
+	/* background-color: #f5f5f5; */
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* .table tr:nth-child(even){
+	background-color: #f2f2f2;
+} */
+
+.about-wrapper{
+    margin-bottom: 50px;
+    padding-top: 65px;
+    animation-name: anim-opac;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+.about{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px 10px;
+    box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.2);
+    width: 1200px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.about-icon,.about-title{
+    margin-bottom: 10px;
+}
+
+.footer-wrapper{
+    animation-name: anim-opac;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+.footer-wrapper .container{
+    background-image: url("assets/image/footer.png");
+    width: 1200px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.footer-title{
+    font-size: 20px;
+}
+.footer p {
+    font-size: 10px;
+}
+
+/* Bagian Animasi */
+@keyframes anim-left {
+    0%{
+        left: -1000px;
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+@keyframes anim-right {
+    0%{
+        right: -1000px;
+    }
+    100%{
+        right: 0%;
+    }
+}
+
+@keyframes anim-top {
+    0%{
+        top: -1000px;
+    }
+    50%{
+        top:50px;
+    }
+    100%{
+        top:0%;
+    }
+}
+
+@keyframes anim-opac {
+    0%{
+        opacity: 0.0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
