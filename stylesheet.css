@@ -326,6 +326,7 @@ li {
     }
 }
 
+/*responsive.css dibawah*/
 @media only screen and (max-width:670px) {
     * {
         zoom:1;
@@ -375,7 +376,7 @@ li {
     }
 
     .footer-wrapper .container{
-        width: 550px;
+        width: 600px;
         margin: 0 auto;
     }
 
