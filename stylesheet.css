@@ -47,20 +47,26 @@
     width: 64px;
 }
 
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 90%;
+} */
+
 header {
+    overflow: hidden;
     left: 50%;
     transform: translate(-50%);
     height: 65px;
-    width: 1200px;
     background-color: white;
     border-radius: 0px 0px 10px 10px;
     padding: 0px 10px;
     box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.2);
     position: fixed;
     z-index: 10;
-    animation-name: anim-top;
+    /* animation-name: anim-top;
     animation-duration: 3s;
-    animation-delay: 5s;
+    animation-delay: 5s; */
 }
 
 .logo {
@@ -154,7 +160,7 @@ li {
     position: relative;
 }
 
-.deskripsi p{
+.deskripsi-1 p,.deskripsi-2 p{
     font-style: italic;
 }
 

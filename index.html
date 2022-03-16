@@ -9,7 +9,7 @@
     <title>Homepage</title>
 </head>
 <body>
-    <header>
+    <header id="navbar">
         <div class="container">
             <div class="header-left">
                 <img class="logo" src="assets/image/logo.png">
@@ -64,7 +64,7 @@
                         <img src="assets/image/training.jpg" class="img-2">
                     </div>
                     <div class="deskripsi-2">
-                        <h2>Bingung mau cari tau info tentang kursus, wokshop, atau seminar tentang programming dimana ? Kuy cek website kita.</h2>
+                        <h2>Bingung mau cari tau info tentang kursus, workshop, atau seminar tentang programming dimana ? Kuy cek website kita.</h2>
                         <p>Disini kita bakal share nih, semua tentang kursus, workshop, atau seminar programming secara gratis.</p>
                     </div>
                 </div>
@@ -118,53 +118,55 @@
                         <h2>Jadwal Kegiatan</h2>
                     </div>
                     <table class="table">
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>Judul</th>
+                                <th>Tipe</th>
+                                <th>Tanggal</th>
+                                <th>Waktu</th>
+                                <th>Lokasi</th>
+                            </tr>
+                        </thead>
                         <tr>
-                            <th>No</th>
-                            <th>Judul</th>
-                            <th>Tipe</th>
-                            <th>Tanggal</th>
-                            <th>Waktu</th>
-                            <th>Lokasi</th>
+                            <td data-label="Nomor">1</td>
+                            <td data-label="Judul">Seminar Web 4.0</td>
+                            <td data-label="Tipe">Seminar</td>
+                            <td data-label="Tanggal">2021-01-01</td>
+                            <td data-label="Waktu">12:00:00</td>
+                            <td data-label="Lokasi">Universitas Gunadarma</td>
                         </tr>
                         <tr>
-                            <td>1</td>
-                            <td>Seminar Web 4.0</td>
-                            <td>Seminar</td>
-                            <td>2021-01-01</td>
-                            <td>12:00:00</td>
-                            <td>Universitas Gunadarma</td>
+                            <td data-label="Nomor">2</td>
+                            <td data-label="Judul">Workshop XML</td>
+                            <td data-label="Tipe">Seminar</td>
+                            <td data-label="Tanggal">2021-01-02</td>
+                            <td data-label="Waktu">12:00:00</td>
+                            <td data-label="Lokasi">Universitas Pancasila</td>
                         </tr>
                         <tr>
-                            <td>2</td>
-                            <td>Workshop XML</td>
-                            <td>Seminar</td>
-                            <td>2021-01-02</td>
-                            <td>12:00:00</td>
-                            <td>Universitas Pancasila</td>
+                            <td data-label="Nomor">3</td>
+                            <td data-label="Judul">Desain Grafis</td>
+                            <td data-label="Tipe">Kursus</td>
+                            <td data-label="Tanggal">2021-01-22</td>
+                            <td data-label="Waktu">15:30:00</td>
+                            <td data-label="Lokasi">Universitas Indonesia</td>
                         </tr>
                         <tr>
-                            <td>3</td>
-                            <td>Desain Grafis</td>
-                            <td>Kursus</td>
-                            <td>2021-01-22</td>
-                            <td>15:30:00</td>
-                            <td>Universitas Indonesia</td>
+                            <td data-label="Nomor">4</td>
+                            <td data-label="Judul">Seminar AI 2.0</td>
+                            <td data-label="Tipe">Seminar</td>
+                            <td data-label="Tanggal">2021-01-31</td>
+                            <td data-label="Waktu">11:00:00</td>
+                            <td data-label="Lokasi">Universitas Indonesia</td>
                         </tr>
                         <tr>
-                            <td>4</td>
-                            <td>Seminar AI 2.0</td>
-                            <td>Seminar</td>
-                            <td>2021-01-31</td>
-                            <td>11:00:00</td>
-                            <td>Universitas Indonesia</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Website building with Bootstrap</td>
-                            <td>Workshop</td>
-                            <td>2021-02-25</td>
-                            <td>12:30:00</td>
-                            <td>Universitas Gunadarma</td>
+                            <td data-label="Nomor">5</td>
+                            <td data-label="Judul">Website building with Bootstrap</td>
+                            <td data-label="Tipe">Workshop</td>
+                            <td data-label="Tanggal">2021-02-25</td>
+                            <td data-label="Waktu">12:30:00</td>
+                            <td data-label="Lokasi">Universitas Gunadarma</td>
                         </tr>
                     </table>
                 </div>
@@ -181,11 +183,11 @@
                         <div class="about-content">
                             <p>Halo, perkenalkan kami dari kelas E kelompok A25 yang beranggotakan:</p>
                             <br>
-                            <p>1. </p>
-                            <p>2. </p>
-                            <p>3. </p>
-                            <p>4. </p>
-                            <p>5. </p>
+                            <p>1. Muhammad Ilham Syahputra</p>
+                            <p>2. Muhammad Khairul Anas</p>
+                            <p>3. Muhammad Rudy Hidayat</p>
+                            <p>4. Nida Nur Afifah</p>
+                            <p>5. Nur Innas Tassya</p>
                             <br>
                             <p>Halaman ini dibuat untuk memenuhi tugas projek tim dari program Digital Talent
                                 Scholarship Progate. Halaman ini dibuat dengan menggunakan HTML5 dan CSS3 serta
@@ -212,5 +214,17 @@
             </div>
         </div>
     </footer>
+    <!-- <script>
+        window.onscroll = function() {myFunction()};
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script> -->
 </body>
 </html>
